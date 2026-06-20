@@ -1,0 +1,37 @@
+{
+  "name": "hack",
+  "version": "1.0.0",
+  "description": "The 'Hack' backend, developed for 'Flim.ai' or also known as frictionless fridge (funny name).",
+  "main": "server.js",
+  "scripts": {
+    "dev": "pnpx nodemon",
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "Pawan Yadav (gitlab: 'pavgamestudios')",
+  "license": "ISC",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "^11.2.2",
+      "onFail": "download"
+    }
+  },
+  "type": "module",
+  "dependencies": {
+    "@google/genai": "^2.8.0",
+    "argon2": "^0.44.0",
+    "axios": "^1.17.0",
+    "better-sqlite3": "^12.10.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "multer": "^2.1.1",
+    "vitest": "^4.1.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
